@@ -4,8 +4,8 @@ pipeline {
 
     environment {
         AWS_REGION = 'ap-south-1'
-        ECR_REPO = 'jenkins-repo'
-        EKS_CLUSTER = 'live-tech-eks'
+        ECR_REPO = 'itvendant-static-site'
+        EKS_CLUSTER = 'Itvedant-EKS'
         AWS_ACCOUNT_ID = '965444437141'
 
         ECR_REGISTRY = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
